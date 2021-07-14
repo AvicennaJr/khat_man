@@ -1,0 +1,637 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://assets/src/background/TempleTIles.png" type="Texture" id=1]
+[ext_resource path="res://assets/src/player/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/src/enemy/Enemy.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/src/background/SunsetTempleBackground.png" type="Texture" id=4]
+[ext_resource path="res://assets/src/Levels/Level1.gd" type="Script" id=5]
+[ext_resource path="res://assets/src/sounds/Instrumental Cusub 2020  Somali no copyright Music.ogg" type="AudioStream" id=6]
+[ext_resource path="res://assets/src/miraa/miraa.tscn" type="PackedScene" id=7]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 0, 0, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=12]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="TileSet" id=13]
+0/name = "TempleTIles.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 192, 64, 64 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+1/name = "TempleTIles.png 1"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 128, 192, 64, 64 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape = SubResource( 2 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1/z_index = 0
+2/name = "TempleTIles.png 2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 128, 256, 64, 64 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape = SubResource( 8 )
+2/shape_one_way = false
+2/shape_one_way_margin = 1.0
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+2/z_index = 0
+3/name = "TempleTIles.png 3"
+3/texture = ExtResource( 1 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 256, 64, 64 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape = SubResource( 9 )
+3/shape_one_way = false
+3/shape_one_way_margin = 1.0
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+3/z_index = 0
+4/name = "TempleTIles.png 4"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 320, 64, 64 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape = SubResource( 10 )
+4/shape_one_way = false
+4/shape_one_way_margin = 1.0
+4/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+4/z_index = 0
+5/name = "TempleTIles.png 5"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 128, 320, 64, 64 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape = SubResource( 11 )
+5/shape_one_way = false
+5/shape_one_way_margin = 1.0
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+5/z_index = 0
+6/name = "TempleTIles.png 6"
+6/texture = ExtResource( 1 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 64, 320, 64, 64 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape = SubResource( 12 )
+6/shape_one_way = false
+6/shape_one_way_margin = 1.0
+6/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+6/z_index = 0
+7/name = "TempleTIles.png 7"
+7/texture = ExtResource( 1 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 192, 0, 64, 64 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 0, 0 )
+7/navigation_offset = Vector2( 0, 0 )
+7/shape_offset = Vector2( 0, 0 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape_one_way = false
+7/shape_one_way_margin = 0.0
+7/shapes = [  ]
+7/z_index = 0
+8/name = "TempleTIles.png 8"
+8/texture = ExtResource( 1 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 192, 64, 64, 64 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 0, 0 )
+8/navigation_offset = Vector2( 0, 0 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape_one_way = false
+8/shape_one_way_margin = 0.0
+8/shapes = [  ]
+8/z_index = 0
+9/name = "TempleTIles.png 9"
+9/texture = ExtResource( 1 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 128, 64, 64, 64 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 0, 0 )
+9/navigation_offset = Vector2( 0, 0 )
+9/shape_offset = Vector2( 0, 0 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+9/shape_one_way = false
+9/shape_one_way_margin = 0.0
+9/shapes = [  ]
+9/z_index = 0
+10/name = "TempleTIles.png 10"
+10/texture = ExtResource( 1 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 64, 64, 64, 64 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 0, 0 )
+10/navigation_offset = Vector2( 0, 0 )
+10/shape_offset = Vector2( 0, 0 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+10/shape_one_way = false
+10/shape_one_way_margin = 0.0
+10/shapes = [  ]
+10/z_index = 0
+11/name = "TempleTIles.png 11"
+11/texture = ExtResource( 1 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 64, 0, 64, 64 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 0, 0 )
+11/navigation_offset = Vector2( 0, 0 )
+11/shape_offset = Vector2( 0, 0 )
+11/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+11/shape_one_way = false
+11/shape_one_way_margin = 0.0
+11/shapes = [  ]
+11/z_index = 0
+12/name = "TempleTIles.png 12"
+12/texture = ExtResource( 1 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 128, 0, 64, 64 )
+12/tile_mode = 0
+12/occluder_offset = Vector2( 0, 0 )
+12/navigation_offset = Vector2( 0, 0 )
+12/shape_offset = Vector2( 0, 0 )
+12/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+12/shape_one_way = false
+12/shape_one_way_margin = 0.0
+12/shapes = [  ]
+12/z_index = 0
+13/name = "TempleTIles.png 13"
+13/texture = ExtResource( 1 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 448, 128, 64, 64 )
+13/tile_mode = 0
+13/occluder_offset = Vector2( 0, 0 )
+13/navigation_offset = Vector2( 0, 0 )
+13/shape_offset = Vector2( 0, 0 )
+13/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+13/shape = SubResource( 4 )
+13/shape_one_way = false
+13/shape_one_way_margin = 1.0
+13/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+13/z_index = 0
+14/name = "TempleTIles.png 14"
+14/texture = ExtResource( 1 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 192, 192, 64, 64 )
+14/tile_mode = 0
+14/occluder_offset = Vector2( 0, 0 )
+14/navigation_offset = Vector2( 0, 0 )
+14/shape_offset = Vector2( 0, 0 )
+14/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+14/shape_one_way = false
+14/shape_one_way_margin = 0.0
+14/shapes = [  ]
+14/z_index = 0
+15/name = "TempleTIles.png 15"
+15/texture = ExtResource( 1 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 192, 256, 64, 64 )
+15/tile_mode = 0
+15/occluder_offset = Vector2( 0, 0 )
+15/navigation_offset = Vector2( 0, 0 )
+15/shape_offset = Vector2( 0, 0 )
+15/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+15/shape_one_way = false
+15/shape_one_way_margin = 0.0
+15/shapes = [  ]
+15/z_index = 0
+16/name = "TempleTIles.png 16"
+16/texture = ExtResource( 1 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 256, 128, 64, 64 )
+16/tile_mode = 0
+16/occluder_offset = Vector2( 0, 0 )
+16/navigation_offset = Vector2( 0, 0 )
+16/shape_offset = Vector2( 0, 0 )
+16/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+16/shape = SubResource( 5 )
+16/shape_one_way = false
+16/shape_one_way_margin = 1.0
+16/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+16/z_index = 0
+17/name = "TempleTIles.png 17"
+17/texture = ExtResource( 1 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 320, 128, 64, 64 )
+17/tile_mode = 0
+17/occluder_offset = Vector2( 0, 0 )
+17/navigation_offset = Vector2( 0, 0 )
+17/shape_offset = Vector2( 0, 0 )
+17/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+17/shape = SubResource( 6 )
+17/shape_one_way = false
+17/shape_one_way_margin = 1.0
+17/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+17/z_index = 0
+18/name = "TempleTIles.png 18"
+18/texture = ExtResource( 1 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 384, 128, 64, 64 )
+18/tile_mode = 0
+18/occluder_offset = Vector2( 0, 0 )
+18/navigation_offset = Vector2( 0, 0 )
+18/shape_offset = Vector2( 0, 0 )
+18/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+18/shape = SubResource( 7 )
+18/shape_one_way = false
+18/shape_one_way_margin = 1.0
+18/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+18/z_index = 0
+19/name = "TempleTIles.png 19"
+19/texture = ExtResource( 1 )
+19/tex_offset = Vector2( 0, 0 )
+19/modulate = Color( 1, 1, 1, 1 )
+19/region = Rect2( 256, 0, 64, 64 )
+19/tile_mode = 0
+19/occluder_offset = Vector2( 0, 0 )
+19/navigation_offset = Vector2( 0, 0 )
+19/shape_offset = Vector2( 0, 0 )
+19/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+19/shape_one_way = false
+19/shape_one_way_margin = 0.0
+19/shapes = [  ]
+19/z_index = 0
+20/name = "TempleTIles.png 20"
+20/texture = ExtResource( 1 )
+20/tex_offset = Vector2( 0, 0 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 320, 0, 64, 64 )
+20/tile_mode = 0
+20/occluder_offset = Vector2( 0, 0 )
+20/navigation_offset = Vector2( 0, 0 )
+20/shape_offset = Vector2( 0, 0 )
+20/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+20/shape_one_way = false
+20/shape_one_way_margin = 0.0
+20/shapes = [  ]
+20/z_index = 0
+21/name = "TempleTIles.png 21"
+21/texture = ExtResource( 1 )
+21/tex_offset = Vector2( 0, 0 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 256, 64, 64, 64 )
+21/tile_mode = 0
+21/occluder_offset = Vector2( 0, 0 )
+21/navigation_offset = Vector2( 0, 0 )
+21/shape_offset = Vector2( 0, 0 )
+21/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+21/shape_one_way = false
+21/shape_one_way_margin = 0.0
+21/shapes = [  ]
+21/z_index = 0
+22/name = "TempleTIles.png 22"
+22/texture = ExtResource( 1 )
+22/tex_offset = Vector2( 0, 0 )
+22/modulate = Color( 1, 1, 1, 1 )
+22/region = Rect2( 320, 64, 64, 64 )
+22/tile_mode = 0
+22/occluder_offset = Vector2( 0, 0 )
+22/navigation_offset = Vector2( 0, 0 )
+22/shape_offset = Vector2( 0, 0 )
+22/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+22/shape_one_way = false
+22/shape_one_way_margin = 0.0
+22/shapes = [  ]
+22/z_index = 0
+
+[node name="Level1" type="Node2D"]
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 512.0, 504.0, 168.0 ],
+"_edit_vertical_guides_": [ 5888.0 ]
+}
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -100
+
+[node name="SunsetTempleBackground" type="TextureRect" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 13 )
+collision_layer = 8
+collision_mask = 0
+format = 1
+tile_data = PoolIntArray( 0, 3, 0, 13, 14, 0, 14, 14, 0, 91, 2, 0, 65536, 3, 0, 65549, 14, 0, 65550, 14, 0, 65627, 2, 0, 131072, 3, 0, 131085, 15, 0, 131086, 15, 0, 131163, 2, 0, 196608, 3, 0, 196699, 2, 0, 262144, 3, 0, 262173, 13, 0, 262174, 13, 0, 262175, 13, 0, 262176, 13, 0, 262205, 13, 0, 262206, 13, 0, 262207, 13, 0, 262208, 13, 0, 262209, 13, 0, 262210, 13, 0, 262219, 16, 0, 262220, 18, 0, 262235, 2, 0, 327680, 3, 0, 327684, 19, 0, 327685, 20, 0, 327700, 11, 0, 327701, 12, 0, 327702, 7, 0, 327731, 0, 0, 327732, 1, 0, 327754, 16, 0, 327755, 17, 0, 327756, 17, 0, 327757, 18, 0, 327771, 2, 0, 393216, 3, 0, 393220, 21, 0, 393221, 22, 0, 393227, 16, 0, 393228, 17, 0, 393231, 17, 0, 393232, 18, 0, 393236, 10, 0, 393237, 9, 0, 393238, 8, 0, 393252, 0, 0, 393253, 1, 0, 393267, 3, 0, 393268, 2, 0, 393289, 16, 0, 393290, 17, 0, 393291, 17, 0, 393292, 17, 0, 393293, 17, 0, 393294, 18, 0, 393307, 2, 0, 458752, 4, 0, 458753, 6, 0, 458754, 6, 0, 458755, 6, 0, 458756, 6, 0, 458757, 6, 0, 458758, 6, 0, 458759, 6, 0, 458760, 6, 0, 458761, 6, 0, 458762, 6, 0, 458763, 6, 0, 458764, 6, 0, 458767, 6, 0, 458768, 6, 0, 458769, 6, 0, 458770, 6, 0, 458771, 6, 0, 458772, 6, 0, 458773, 6, 0, 458774, 6, 0, 458775, 6, 0, 458776, 6, 0, 458777, 6, 0, 458778, 6, 0, 458779, 6, 0, 458780, 6, 0, 458781, 6, 0, 458782, 6, 0, 458783, 6, 0, 458784, 6, 0, 458785, 6, 0, 458786, 6, 0, 458787, 6, 0, 458788, 6, 0, 458789, 6, 0, 458790, 6, 0, 458791, 6, 0, 458792, 6, 0, 458793, 6, 0, 458794, 6, 0, 458795, 5, 0, 458798, 4, 0, 458799, 6, 0, 458800, 6, 0, 458801, 6, 0, 458802, 6, 0, 458803, 6, 0, 458804, 6, 0, 458805, 6, 0, 458806, 6, 0, 458807, 6, 0, 458808, 6, 0, 458809, 6, 0, 458810, 6, 0, 458811, 6, 0, 458812, 6, 0, 458813, 6, 0, 458814, 6, 0, 458815, 6, 0, 458816, 6, 0, 458817, 6, 0, 458818, 6, 0, 458819, 6, 0, 458820, 6, 0, 458821, 6, 0, 458822, 6, 0, 458823, 6, 0, 458824, 6, 0, 458825, 6, 0, 458826, 6, 0, 458827, 6, 0, 458828, 6, 0, 458829, 6, 0, 458830, 6, 0, 458831, 6, 0, 458832, 6, 0, 458833, 6, 0, 458834, 6, 0, 458835, 6, 0, 458836, 6, 0, 458837, 6, 0, 458838, 6, 0, 458839, 6, 0, 458840, 6, 0, 458841, 6, 0, 458842, 6, 0, 458843, 5, 0 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 384 )
+
+[node name="EnemyCointainer" type="Node2D" parent="."]
+
+[node name="Enemy" parent="EnemyCointainer" instance=ExtResource( 3 )]
+position = Vector2( 1600, 400 )
+
+[node name="Enemy2" parent="EnemyCointainer" instance=ExtResource( 3 )]
+position = Vector2( 1984, 168 )
+
+[node name="Enemy3" parent="EnemyCointainer" instance=ExtResource( 3 )]
+position = Vector2( 2744, 408 )
+
+[node name="Enemy4" parent="EnemyCointainer" instance=ExtResource( 3 )]
+position = Vector2( 4008, 408 )
+
+[node name="Enemy5" parent="EnemyCointainer" instance=ExtResource( 3 )]
+position = Vector2( 4232, 400 )
+
+[node name="Enemy6" parent="EnemyCointainer" instance=ExtResource( 3 )]
+position = Vector2( 4856, 216 )
+
+[node name="backgroundsong" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+autoplay = true
+
+[node name="MiraaCointainer" type="Node2D" parent="."]
+
+[node name="miraa" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 608, 304 )
+
+[node name="miraa2" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 648, 304 )
+
+[node name="miraa3" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 688, 304 )
+
+[node name="miraa4" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 1296, 328 )
+
+[node name="miraa5" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 1400, 328 )
+
+[node name="miraa6" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 1480, 328 )
+
+[node name="miraa7" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 1576, 328 )
+
+[node name="miraa8" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 2256, 328 )
+
+[node name="miraa9" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 2296, 288 )
+
+[node name="miraa10" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 2352, 272 )
+
+[node name="miraa11" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 2408, 272 )
+
+[node name="miraa12" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 3248, 104 )
+
+[node name="miraa13" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 3304, 104 )
+
+[node name="miraa14" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 3368, 104 )
+
+[node name="miraa15" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5224, 200 )
+
+[node name="miraa16" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5224, 264 )
+
+[node name="miraa17" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5224, 328 )
+
+[node name="miraa18" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5224, 392 )
+
+[node name="miraa19" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5280, 392 )
+
+[node name="miraa20" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5344, 392 )
+
+[node name="miraa21" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5280, 296 )
+
+[node name="miraa22" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5280, 208 )
+
+[node name="miraa23" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5344, 208 )
+
+[node name="miraa24" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5440, 392 )
+
+[node name="miraa25" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5440, 328 )
+
+[node name="miraa26" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5440, 256 )
+
+[node name="miraa27" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5440, 200 )
+
+[node name="miraa28" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5488, 248 )
+
+[node name="miraa29" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5520, 296 )
+
+[node name="miraa30" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5560, 344 )
+
+[node name="miraa31" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5592, 376 )
+
+[node name="miraa32" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5600, 296 )
+
+[node name="miraa33" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5600, 232 )
+
+[node name="miraa34" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5600, 192 )
+
+[node name="miraa35" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5648, 208 )
+
+[node name="miraa36" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5648, 264 )
+
+[node name="miraa37" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5656, 320 )
+
+[node name="miraa38" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5656, 384 )
+
+[node name="miraa39" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5712, 392 )
+
+[node name="miraa40" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5760, 328 )
+
+[node name="miraa41" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5760, 280 )
+
+[node name="miraa42" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5720, 232 )
+
+[node name="miraa43" parent="MiraaCointainer" instance=ExtResource( 7 )]
+position = Vector2( 5680, 192 )
+
+[connection signal="shoot" from="Player" to="." method="_on_Player_shoot"]
