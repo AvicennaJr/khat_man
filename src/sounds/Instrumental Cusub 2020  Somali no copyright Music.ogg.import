@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Instrumental Cusub 2020  Somali no copyright Music.ogg-989b4f0de213d4b15678c7aabe4dbda3.oggstr"
+
+[deps]
+
+source_file="res://assets/src/sounds/Instrumental Cusub 2020  Somali no copyright Music.ogg"
+dest_files=[ "res://.import/Instrumental Cusub 2020  Somali no copyright Music.ogg-989b4f0de213d4b15678c7aabe4dbda3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
