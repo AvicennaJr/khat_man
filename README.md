@@ -1,10 +1,13 @@
 # Khat-Man
 
-Overview:
+<h2>Overview:</h2>
 
-This is a simple "game" I made with my little brother using the Godot game engine with GDScript. Has a lot of bugs and needs a lot of refinements to be playable.  I'm not a good programmer and my code is a mess, you've been warned!
+This is a simple game I made with my little brother using the Godot game engine with GDScript.
 
-Requirements:
+![khat-man](https://user-images.githubusercontent.com/87450618/129453571-693743f6-2385-431a-90c4-a26bcc4e9c66.png)
+
+
+<h2>Requirements:</h2>
 
 To play/design the game you need Godot installed (https://godotengine.org/)
 
